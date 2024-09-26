@@ -1,0 +1,17 @@
+# Ignorar banco de dados SQLite
+*.db
+
+# Ignorar diretórios e arquivos temporários
+__pycache__/
+*.py[cod]
+
+# Ignorar configurações de ambiente virtual
+venv/
+.env
+
+# Arquivos de log
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
