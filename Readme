@@ -1,0 +1,64 @@
+Enunciado
+Você está desenvolvendo um sistema de gerenciamento para uma biblioteca utilizando Python e SQLite. O objetivo é permitir que o administrador da biblioteca possa cadastrar novos livros, usuários e registrar empréstimos de livros. Além disso, o sistema deve ser capaz de atualizar a data de devolução de um empréstimo e listar todos os livros atualmente emprestados.
+
+O sistema deve incluir as seguintes funcionalidades:
+
+Cadastro de livros: Inserir informações como título, autor, editora, ano de publicação e ISBN.
+Cadastro de usuários: Inserir informações como nome, sobrenome, endereço, e-mail e telefone.
+Registro de empréstimos: Registrar qual livro foi emprestado para qual usuário e a data do empréstimo.
+Atualização de devolução: Atualizar a data de devolução de um livro.
+Listagem de livros emprestados: Mostrar uma lista de todos os livros que estão emprestados atualmente.
+Menu de opções: Oferecer um menu com as opções de cadastrar, realizar empréstimos, atualizar devoluções e listar livros emprestados.
+
+Sistema de Gerenciamento de Biblioteca
+Descrição
+Este projeto é um sistema simples de gerenciamento de biblioteca utilizando Python e SQLite. Ele permite o cadastro de livros e usuários, registro de empréstimos de livros, atualização da data de devolução e listagem dos livros atualmente emprestados.
+
+Funcionalidades
+Cadastro de livros: Registre livros na base de dados com informações como título, autor, editora, ano de publicação e ISBN.
+Cadastro de usuários: Registre novos usuários com nome, sobrenome, endereço, e-mail e telefone.
+Registro de empréstimos: Registre empréstimos de livros, incluindo a data de empréstimo.
+Atualização de devolução: Atualize a data de devolução de livros emprestados.
+Listagem de livros emprestados: Exiba uma lista de livros que estão atualmente emprestados, com os nomes dos usuários que os pegaram.
+Requisitos
+Python 3.x
+SQLite (integrado com Python via a biblioteca sqlite3)
+Instalação
+Clone o repositório:
+bash
+Copiar código
+git clone https://github.com/seu-usuario/biblioteca.git
+Acesse a pasta do projeto:
+bash
+Copiar código
+cd biblioteca
+Instale as dependências (caso haja algum pacote externo):
+bash
+Copiar código
+pip install -r requirements.txt
+Uso
+Execute o arquivo principal:
+bash
+Copiar código
+python main.py
+Use o menu para navegar pelas opções:
+1: Inserir um novo livro
+2: Inserir um novo usuário
+3: Realizar um novo empréstimo
+4: Atualizar a data de devolução de um empréstimo
+5: Exibir livros atualmente emprestados
+0: Sair
+Estrutura do Projeto
+bash
+Copiar código
+biblioteca/
+│
+├── main.py              # Arquivo principal que contém o código do sistema
+├── README.md            # Este arquivo
+└── .gitignore           # Arquivo para ignorar arquivos desnecessários no repositório
+Contribuições
+Faça um fork do projeto.
+Crie uma nova branch (git checkout -b feature/nova-funcionalidade).
+Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade').
+Faça push para a branch (git push origin feature/nova-funcionalidade).
+Abra um pull request.
